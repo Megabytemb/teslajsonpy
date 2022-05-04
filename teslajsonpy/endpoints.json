@@ -1684,5 +1684,10 @@
     "TYPE": "POST",
     "URI": "api/1/vehicles/{vehicle_id}/command/window_control",
     "AUTH": true
+  },
+  "CACHED_PROTO_VEHICLE_DATA": {
+    "TYPE": "POST",
+    "URI": "api/1/vehicles/{vehicle_id}/latest_vehicle_data",
+    "AUTH": true
   }
 }
